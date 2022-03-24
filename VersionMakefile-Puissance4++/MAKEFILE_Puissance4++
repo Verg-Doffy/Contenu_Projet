@@ -1,0 +1,8 @@
+puissanceTest++: Puissance4++EXECUTION.o Puissance4++.o
+	gcc Puissance4++EXECUTION.o Puissance4++.o -o puissanceTest++
+
+Puissance4++EXECUTION.o: Puissance4++EXECUTION.c
+	gcc -c Puissance4++EXECUTION.c
+
+Puissance4++.o: Puissance4++.c
+	gcc -c Puissance4++.c

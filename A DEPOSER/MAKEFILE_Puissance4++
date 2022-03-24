@@ -1,0 +1,8 @@
+bin/puissanceTest++: bin/Puissance4++EXECUTION.o bin/Puissance4++.o
+	gcc bin/Puissance4++EXECUTION.o bin/Puissance4++.o -o bin/puissanceTest++
+
+bin/Puissance4++EXECUTION.o: bin/Puissance4++EXECUTION.c
+	gcc -c src/Puissance4++EXECUTION.c
+
+bin/Puissance4++.o: src/Puissance4++.c
+	gcc -c src/Puissance4++.c
